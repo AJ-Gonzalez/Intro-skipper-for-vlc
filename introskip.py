@@ -24,8 +24,8 @@ def skip(skips):
     for _ in range(0,skips):
         press('right')
         sleep(0.05)
-    # Volume up
-    for _ in range(0,4): (Static value of 4 presses)
+    # Volume up  (Static value of 4 presses)
+    for _ in range(0,4):
         press('up')
         sleep(0.05)
 
